@@ -18,7 +18,7 @@ pub struct RSAPrivateKeyExport {
 
 pub struct RSA {
     pub public_key: (BigUint, BigUint),  // (e, n)
-    private_key: (BigUint, BigUint),     // (d, n)
+    pub private_key: (BigUint, BigUint),     // (d, n)
 }
 
 impl RSA {
